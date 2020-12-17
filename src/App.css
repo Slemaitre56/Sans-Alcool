@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  background-image: url("./pictures/partition.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.blocGames{
+  width: 60%;
+  height: 40vh;
+  margin: auto;
+  text-align: center;
+}
+
+.blocNumber{
+  background-color: #f3f4f4;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.blocNumber h1{
+  width: 100%;
+  margin-bottom: 50px;
+  color: #423f3f;
+  text-align: center;
+}
+
+
+.blocNumber input, .blocNumber button {
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid #423f3f;
+  color: #423f3f;
+  background-color: #fff;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.blocParoles{
+  background-color: #f3f4f4;
+  width: 100%;
+  padding: 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  animation-name: anim;
+  animation-duration: 3s;
+  display: none;
+
+}
+
+@keyframes anim {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+.body {
+  width: 70%;
+  height: 90%;
+  background: #000;
+  overflow: hidden;
+  margin: auto;
+}
+
+audio{
+  z-index: 9999;
+  position: absolute;
+  top: 245px;
+  right: 5px;
+  width: 200px;
+  height: 40px;
+}
+
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1;
+}
+
+.star-wars {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+  color: #d6d0c6;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+}
+
+.crawl {
+  position: relative;
+  top: 9999px;
+  animation: crawl 120s linear;
+
+}
+
+.crawl > .title {
+  font-size: 70%;
+  text-align: center;
+}
+
+.crawl > .title h1 {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+}
+
+@keyframes crawl {
+  0% {
+    top: 0;
+    transform: rotateX(20deg)  translateZ(0);
+    -webkit-transform: rotateX(20deg)  translateZ(0);
+    -moz-transform: rotateX(20deg)  translateZ(0);
+    -ms-transform: rotateX(20deg)  translateZ(0);
+    -o-transform: rotateX(20deg)  translateZ(0);
+}
+  100% {
+    top: -10000px;
+    transform: rotateX(25deg) translateZ(-3200px);
+
+}
+}
+
+.crawl > p {
+  padding: 5px 0;
+}
+
+.btn button {
+  padding: 13px;
+  border-radius: 25px;
+  background: #486db2;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn a{
+  position: absolute;
+  top: 645px;
+  z-index: 10;
+  right: 50px;
+}
