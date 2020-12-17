@@ -13,7 +13,7 @@ import './App.css';
 
 
 // App() est chargé automatiquement par ReactJs
-// En allant sur src/index.js, on voit que App.js est importer puis renvoyé dans la div "root" dans public/index.html
+// En allant sur src/index.js, on voit que App.js est importer puis   envoyé dans la div "root" dans public/index.html
 
 // En ReactJs, quand on crée une fonction, constante, class il faut toujours un return()
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Router>
         <Switch>
 
-          {/* Route crée un accès, un chamin vers le contenu d'une page
+          {/* Route crée un accès, un chEmin vers le contenu d'une page
            Il faut un path = chemin qui sera afficher dans l'URL, et un component = nom choisi quand on importe le fichier */}
           <Route exact path="/" component={Game}/>
           <Route path="/chanson" component={Song}/>

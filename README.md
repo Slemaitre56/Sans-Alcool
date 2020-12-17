@@ -1,4 +1,4 @@
-# Test pour la licence : La petite chanson de Nico
+# Sans-alccol la fête et plus folle - Test pour la licence : La petite chanson de Nico
 
 ![Image description](./public/images/Capture.PNG)
 
@@ -7,17 +7,17 @@ Ce projet a été réalisé avec la librairie/framework ReactJs.
 
 ## Je commence par quoi ?
 
-* Vous pouvez télécharger le dossier Sans-Alcool via mon GitHub ().
+* Vous pouvez télécharger le dossier Sans-Alcool via mon GitHub (https://github.com/Slemaitre56/Sans-Alcool).
 * L'ouvrir avec votre éditeur de code.
-* Dans votre terminal, tapez "cd test"(si vous n'y êtes pas déjà) puis "npm start" ou "yarn start". 
+* Dans votre terminal, tapez "cd le nom du dossier où vous avez enregistré Sans-Alcool" (si vous n'y êtes pas déjà) puis "npm start" ou "yarn start". ( Il faut avoir node et npm à jour !)
 * Une page va s'ouvrir dans votre navigateur (http://localhost:3000)
-* Ou vous pouvez aller sur le lien : XXXXXX
+
 
 
 ## Je regarde où si je veux vérifier le code ?
 
 
-Il y trois gros dossiers : node_modules / public / src
+Dans votre éditeur de code, il y trois gros dossiers : node_modules / public / src.
 
 * node_modules => On n'y touche pas, c'est un pack de modules qui d'installe lors de la création de l'application ReactJs.
 
@@ -41,13 +41,14 @@ Vous avez deux "chemins" (path) Game et Song, qui se trouvent dans d'autres doss
 
 
 Sur cette page se trouve le petit jeux qui anime la chanson de Nico !
-Rentrer un nombre de votre choix compris entre 0 et 99 et les paroles de la chanson apparaîtront  !
+
+Rentrez un nombre de votre choix compris entre 0 et 99 et les paroles de la chanson apparaîtront  !
 
 ### Song
 
 
 Comme au cinéma mais en mieux ! Oui oui je vous jure ! 
-Les paroles de la chansons défilent devant vos yeux avec, si vous en avez envie, une petite chanson pour vous mettre dans le rytme !
+Les paroles de la chansons défilent devant vos yeux avec, si vous en avez envie, une petite chanson est là pour vous mettre dans le rytme !
 
 ## Licence/Droits
 
@@ -55,4 +56,4 @@ Les paroles de la chansons défilent devant vos yeux avec, si vous en avez envie
 L'idée ainsi que les paroles de cette application ne m'appartienne pas.
 
 
-# Sans-Alcool
+
