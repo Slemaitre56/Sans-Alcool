@@ -68,7 +68,7 @@ const Game = () => {
                 }if(number == 0){
                     return <Song0 />
                 }else{
-                    return "Vous devez rentrer un nomnre entre 0 et 99 !"
+                    return "Vous devez rentrer un nombre entre 0 et 99 !"
                 }
             }
                 

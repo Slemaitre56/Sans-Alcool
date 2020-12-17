@@ -11,6 +11,7 @@ Ce projet a été réalisé avec la librairie/framework ReactJs.
 * L'ouvrir avec votre éditeur de code.
 * Dans votre terminal, tapez "cd le nom du dossier où vous avez enregistré Sans-Alcool" (si vous n'y êtes pas déjà) puis "npm start". ( Il faut avoir node et npm à jour !)
 * Une page va s'ouvrir dans votre navigateur (http://localhost:3000)
+* Vous pouvez aller ur https://sans-alcool.herokuapp.com/ pour voir le résultat.
 
 
 
