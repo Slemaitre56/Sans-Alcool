@@ -6,7 +6,7 @@
 import React, { useState } from "react";
 // Pour créer un lien avec ReactJs, il faut l'installer via votre terminal et importer une extention appeler react-router-dom.
 // Voir la documentation https://reactrouter.com/web/guides/quick-start
-import { Link } from "react-router-dom";
+import audio from "../../audio/une-poule-sur-un-mur-version-instrumentale.mp3";
 
 
 // En ReactJs, quand on crée une fonction, constante, class il faut toujours un return()
@@ -59,7 +59,7 @@ const Game = () => {
             }
     
         // 3 - Des si...
-            // A chaque condition, j'affiche le text correspondant
+            // A chaques conditions, j'affiche le texte correspondant
             function AllSong() {  
                 if (number >= 2 && number < 100) {    
                     return <Song99 />;  
@@ -92,17 +92,16 @@ const Game = () => {
                         <button onClick={addSong}> 
                             Afficher le couplet !
                         </button>
-
+                        <audio controls loop src={audio} type="audio/mp3"> 
+                        </audio> 
+                        
                     </div>    
 
                     {/* Ici, on importe la fonction AllSong qui affichera les paroles correspondantes aux conditions */}
                     <div className="blocParoles">
                         <AllSong/>
                     </div>
-
-                    <div className="btn">
-                        <Link to="/chanson"><button>Version karaoké ?</button></Link>
-                    </div>  
+ 
 
                 </div>
             )

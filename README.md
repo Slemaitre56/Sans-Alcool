@@ -32,10 +32,10 @@ Dans votre éditeur de code, il y trois gros dossiers : node_modules / public / 
 
 Allez jeter un oeil ( ne vous faites pas trop mal hein !) dans le ficher App.js qui est utilisé comme Router.
 
-Vous avez deux "chemins" (path) Game et Song, qui se trouvent dans d'autres dossiers. Ouvrez-les.
+Vous avez un "chemin" (path) Game, qui se trouve dans un autre dossier. Ouvrez-le.
 
 * components > Game > index.js
-* components > Song > index.js
+
 
 
 ### Game
@@ -45,11 +45,6 @@ Sur cette page se trouve le petit jeux qui anime la chanson de Nico !
 
 Rentrez un nombre de votre choix compris entre 0 et 99 et les paroles de la chanson apparaîtront  !
 
-### Song
-
-
-Comme au cinéma mais en mieux ! Oui oui je vous jure ! 
-Les paroles de la chansons défilent devant vos yeux avec, si vous en avez envie, une petite chanson est là pour vous mettre dans le rytme !
 
 ## Licence/Droits
 

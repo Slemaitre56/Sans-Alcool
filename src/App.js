@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 // Si on veut afficher le contenu d'une page créer, il faut l'importer.
 import Game from './components/Game';
-import Song from "./components/Song";
 import './App.css';
 
 
@@ -27,7 +26,6 @@ function App() {
           {/* Route crée un accès, un chEmin vers le contenu d'une page
            Il faut un path = chemin qui sera afficher dans l'URL, et un component = nom choisi quand on importe le fichier */}
           <Route exact path="/" component={Game}/>
-          <Route path="/chanson" component={Song}/>
 
         </Switch>
       </Router>

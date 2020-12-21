@@ -17,6 +17,7 @@
   height: 40vh;
   margin: auto;
   text-align: center;
+  position: relative;
 }
 
 .blocNumber{
@@ -67,8 +68,6 @@
   to {opacity: 1;}
 }
 
-
-
 .body {
   width: 70%;
   height: 90%;
@@ -78,83 +77,9 @@
 }
 
 audio{
-  z-index: 9999;
   position: absolute;
-  top: 245px;
-  right: 5px;
-  width: 200px;
+  top: 430px;
+  width: 230px;
   height: 40px;
 }
 
-.fade {
-  position: relative;
-  width: 100%;
-  min-height: 50vh;
-  top: -25px;
-  background-image: linear-gradient(0deg, transparent, black 75%);
-  z-index: 1;
-}
-
-.star-wars {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 400px;
-  color: #d6d0c6;
-  font-family: 'Pathway Gothic One', sans-serif;
-  text-align: center;
-}
-
-.crawl {
-  position: relative;
-  top: 9999px;
-  animation: crawl 120s linear;
-
-}
-
-.crawl > .title {
-  font-size: 70%;
-  text-align: center;
-}
-
-.crawl > .title h1 {
-  margin: 0 0 100px;
-  text-transform: uppercase;
-}
-
-@keyframes crawl {
-  0% {
-    top: 0;
-    transform: rotateX(20deg)  translateZ(0);
-    -webkit-transform: rotateX(20deg)  translateZ(0);
-    -moz-transform: rotateX(20deg)  translateZ(0);
-    -ms-transform: rotateX(20deg)  translateZ(0);
-    -o-transform: rotateX(20deg)  translateZ(0);
-}
-  100% {
-    top: -10000px;
-    transform: rotateX(25deg) translateZ(-3200px);
-
-}
-}
-
-.crawl > p {
-  padding: 5px 0;
-}
-
-.btn button {
-  padding: 13px;
-  border-radius: 25px;
-  background: #486db2;
-  color: white;
-  font-size: 15px;
-  border: none;
-  cursor: pointer;
-}
-
-.btn a{
-  position: absolute;
-  top: 645px;
-  z-index: 10;
-  right: 50px;
-}
