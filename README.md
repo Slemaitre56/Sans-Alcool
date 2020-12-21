@@ -1,4 +1,5 @@
-# Sans-alccol la fête et plus folle - Test pour la licence : La petite chanson de Nico
+# Sans-alcool la fête est plus folle
+## Test pour la licence : La petite chanson de Nico
 
 ![Image description](./public/images/Capture.PNG)
 
